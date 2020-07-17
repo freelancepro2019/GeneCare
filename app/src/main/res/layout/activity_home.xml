@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    >
+
+    <data>
+
+
+    </data>
+
+    <androidx.coordinatorlayout.widget.CoordinatorLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:context=".activities_fragments.activity_home.HomeActivity"
+
+
+            >
+
+
+
+            <FrameLayout
+                android:id="@+id/fragment_home_container"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:clickable="true"
+                android:focusable="true"
+                app:layout_constraintBottom_toTopOf="@+id/ah_bottom_nav"
+                app:layout_constraintTop_toTopOf="parent"
+
+                >
+
+
+            </FrameLayout>
+
+            <com.aurelhubert.ahbottomnavigation.AHBottomNavigation
+                android:id="@+id/ah_bottom_nav"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:layout_constraintBottom_toBottomOf="parent"
+                android:background="@color/white"
+                >
+
+            </com.aurelhubert.ahbottomnavigation.AHBottomNavigation>
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+        <include layout="@layout/home_sheet"/>
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+</layout>

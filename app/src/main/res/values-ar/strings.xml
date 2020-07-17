@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">جين الرعاية</string>
+    <string name="map_api_key">AIzaSyCbc2Y5AIwZ8uUeHRUXiozGN3CnpjKT0oI</string>
+
+
+    <string name="log_in">تسجيل الدخول</string>
+    <string name="password">كلمة المرور</string>
+    <string name="login">تسجيل الدخول</string>
+    <string name="signup">إنشاء حساب جديد</string>
+    <string name="are_you_forgot_password">نسيت كلمة المرور؟</string>
+
+    <string name="user_name">الإسم</string>
+    <string name="phone">رقم الجوال</string>
+    <string name="you_already_have_an_account_log_in">لدي حساب بالفعل ! سجل الدخول</string>
+    <string name="home">الرئيسية</string>
+    <string name="notifications">الاشعارات</string>
+    <string name="more">المزيد</string>
+    <string name="bank_account"> الحسابات البنكية </string>
+    <string name="terms_and_conditions">الشروط والاحكام</string>
+    <string name="about_app">عن التطبيق</string>
+    <string name="contact_us">اتصل بنا</string>
+    <string name="logout">تسجيل الخروج</string>
+    <string name="skip">تخطي</string>
+
+    <string name="field_req">الحقل مطلوب</string>
+    <string name="inv_email">البريد الالكتروني غير صحيح</string>
+    <string name="back">رجوع</string>
+    <string name="since">منذ</string>
+    <string name="wait">إنتظر قليلا...</string>
+    <string name="inv_em_ps">البريد الالكتروني او كلمة المرور غير صحيحة</string>
+    <string name="failed">خطأ حاول مرة اخرى لاحقا</string>
+    <string name="something">تحقق من الاتصال بالانترنت</string>
+    <string name="em_exist">البريد الالكتروني او رقم الجوال موجود مسبقا</string>
+    <string name="profile">حسابي</string>
+    <string name="general_settings">الإعدادت العامة</string>
+    <string name="edit_profile">تعديل الملف الشخصي</string>
+    <string name="language_settings">إعدادات اللغة</string>
+    <string name="no_details">لا توجد تفاصيل</string>
+    <string name="sign_in">تسجيل الدخول</string>
+    <string name="please_sign_in_or_sign_up">برجاء تسجيل الدخول أو إنشاء حساب جديد.</string>
+    <string name="cancel">إلغاء</string>
+    <string name="suc">تم بنجاح</string>
+    <string name="bank_name">إسم البنك</string>
+    <string name="account_name">إسم الحساب</string>
+    <string name="account_iban">الايبان</string>
+    <string name="account_number">رقم الحساب</string>
+    <string name="ok">حسنا!</string>
+    <string name="select_location_on_map">حدد موقعك على الخريطة</string>
+    <string name="upload_picture">إرفع صورة</string>
+    <string name="select_a_picture_to_upload">إختر صورة لرفعها</string>
+    <string name="camera">كاميرا</string>
+    <string name="gallery">البوم صور</string>
+    <string name="perm_image_denied">الوصول لصور غير مسموح</string>
+    <string name="done">تم</string>
+
+    <string name="change_language">تغير اللغة</string>
+
+    <string name="next">التالى</string>
+
+    <string name="name">الاسم</string>
+
+    <string name="call">اتصال</string>
+    <string name="message">رسالة</string>
+    <string name="location">الموقع على الخريطة</string>
+    <string name="share">شارك</string>
+    <string name="edit">تعديل</string>
+    <string name="price">السعر : </string>
+    <string name="delete">حذف</string>
+
+    <string name="detials">تفاصيل</string>
+    <string name="register">سجل</string>
+    <string name="upload_image">اضف الصوره</string>
+    <string name="ads_photos">صور الاعلان</string>
+
+    <string name="about">حول</string>
+    <string name="time">الوقت</string>
+    <string name="map">الخريطه</string>
+
+
+    <string name="share_in">مشاركه فى  </string>
+
+    <string name="blokced">تم حظر المستخدم</string>
+    <string name="enter_code">أدخل الرمز</string>
+    <string name="we_ll_never_share_or_sell_your_phone_number_your_privacy_is_100_guaranteed">بياناتك في الحفظ والصون لدينا، ماراح نشارك بياناتك مع اي احد ولأي سبب.</string>
+    <string name="enter_the_sms_verification_code_below_that_was_sent_to_your_mobile_phone">أرجو منك إدخال الرمز المرسل إلى هاتفك الجوال.</string>
+    <string name="inc_code_verification">رمز التحقق غير صحيح</string>
+    <string name="you_will_receive_4_digit">ارسلنا لك رمز التفعيل على جوالك نرجو منك إدخال الرمز.</string>
+    <string name="resend">أعد الارسال</string>
+    <string name="confirm">تحقق</string>
+    <string name="inc_code">رمز التحقق غير صحيح</string>
+    <string name="email">البريد الإلكتروني</string>
+    <string name="send">إرسال</string>
+    <string name="no_name">لا يوجد إسم</string>
+    <string name="more_details">للمزيد من التفاصيل :</string>
+
+    <string name="no_search_result">نتائج البحث فارغة</string>
+    <string name="search_results">نتائج البحث</string>
+    <string name="result">النتائج</string>
+    <string name="from">من</string>
+    <string name="no_categories_to_display">لا توجد فئات لعرضها</string>
+
+    <string name="sms">رسالة</string>
+    <string name="sign_out">تسجيل الخروج</string>
+
+
+    <string name="wil_rev_req">سوف يتم مراجعة طلبك من الادارة والرد عليكم يسعدنا استخدامك لتطبيق حراج الاول.</string>
+    <string name="add_photo">أضف صورة</string>
+    <string name="category">قسم الإعلان</string>
+
+    <string name="city">المدينة</string>
+    <string name="ch_city">إختر المدينة</string>
+    <string name="ch">إختر</string>
+    <string name="select">تحديد</string>
+    <string name="select_picture">إختر الصور</string>
+    <string name="approved">تم إعتماد</string>
+    <string name="no_notifications_to_display">لا يوجد إشعارات لعرضها</string>
+    <string name="just_now">الان</string>
+    <string name="a_minute_ago">منذ دقيقة</string>
+    <string name="min">دقيقة</string>
+    <string name="an_hour_ago">منذ ساعة</string>
+    <string name="hs">ساعة</string>
+    <string name="yesterday">امس</string>
+    <string name="day">يوم</string>
+    <string name="type_a_message">إكتب رسالة....</string>
+    <string name="img_sent">تم إرسال صورة لك</string>
+    <string name="pass_short">كلمة المرور قصيرة جدا</string>
+    <string name="code">الكود</string>
+    <string name="create_an_account">إنشاء حساب جديد</string>
+    <string name="about_me">عني</string>
+    <string name="accept_terms_and_conditions">الموافقة على الشروط والاحكام</string>
+    <string name="ch_exper">إختر الخبرة</string>
+    <string name="ch_dept">إختر القسم</string>
+    <string name="cnt_sign_accept">لا يمكنك إنشاء حساب دون الموافقة على الشروط والاحكام</string>
+    <string name="services">الخدمات</string>
+    <string name="caregivers">مقدمي الرعاية</string>
+    <string name="careseekers">طالب الرعاية</string>
+    <string name="no_service">لا توجد خدمات</string>
+    <string name="no_orders">لا توجد طلبات</string>
+    <string name="orders">الطلبات</string>
+    <string name="pending">قيد الإنتظار</string>
+    <string name="current">الحالية</string>
+    <string name="previous">السابقة</string>
+    <string name="about_us">عن التطبيق</string>
+    <string name="rate_app">قيم التطبيق</string>
+    <string name="share_app">شارك التطبيق</string>
+    <string name="subject">الموضوع</string>
+    <string name="user_email">بريدك الالكتروني</string>
+    <string name="language_setting">تغيير اللغة</string>
+    <string name="Make_Order">عمل طلب </string>
+    <string name="Service_name">اسم الخدمة </string>
+    <string name="date">التاريخ</string>
+    <string name="gender">الجنس :</string>
+    <string name="male">ذكر</string>
+    <string name="female">انثي</string>
+    <string name="any">ايهما</string>
+    <string name="address">العنوان</string>
+    <string name="another_phone">رقم جوال اخر  </string>
+    <string name="description">وصف </string>
+    <string name="Payment_ways">طريقة الدفع </string>
+    <string name="MasterCard">بطاقة ائتمان </string>
+    <string name="vodafoneCash">فودافون كاش</string>
+    <string name="Fawry">فورى</string>
+    <string name="CashMoney">نقدا</string>
+    <string name="ch_gender">إختر النوع</string>
+    <string name="Cancel">الغاء</string>
+    <string name="all_services_are_reserved_for_homecare_app">جميع الحقوق محفوظة لهذا التطبيق.</string>
+    <string name="send_order">إرسال طلب</string>
+    <string name="user_not_found">هذا المستخدم غير موجود</string>
+    <string name="user_bloked">تم حظر المستخدم</string>
+    <string name="show_details">عرض التفاصيل</string>
+    <string name="no_patient">عدد المرضى : </string>
+    <string name="le">ج.م</string>
+    <string name="account">الحساب</string>
+    <string name="profile_settings">إعدادات الحساب</string>
+    <string name="feedback">التعليقات</string>
+    <string name="gender2">الجنس</string>
+    <string name="serv_only">الخدمات لمقدمين الخدمة فقط</string>
+    <string name="personal_information">معلومات شخصية</string>
+    <string name="education_amp_certificate"><![CDATA[التعليم & الشهادة]]></string>
+    <string name="price2">السعر</string>
+    <string name="times">عدد المرات: </string>
+    <string name="age">العمر (المريض)</string>
+    <string name="ch_num_tim">إختر عدد مرات الزيارة</string>
+    <string name="ch_num_pat">إختر عدد المرضى</string>
+    <string name="ch_date">إختر التاريخ</string>
+    <string name="ch_type">إختر الوقت</string>
+    <string name="gender_providers">الجنس (مقدمين الخدمة)</string>
+    <string name="ch_prov_gen">إختر جنس مقدمي الخدمة</string>
+    <string name="ch_pay_way">إختر طريقة الدفع</string>
+    <string name="total">الإجمالي : </string>
+    <string name="order_sent">تم إرسال طلبك بنجاح!</string>
+    <string name="no_time">عدد المرات</string>
+    <string name="no_patients">عدد المرضى</string>
+    <string name="sorry_no_prov">عفوا, لا يوجد مقديمن خدمة. من فضلك حاول مرة اخرى لاحقا.</string>
+    <string name="order_details">تفاصيل الطلب</string>
+    <string name="whatsapp">واتس اب</string>
+    <string name="accept">الموافقة</string>
+    <string name="client_details">تفاصيل العميل :</string>
+    <string name="provider_details">تفاصيل مقدم الخدمة :</string>
+    <string name="order_is_pending">الطلب قيد الانتظار</string>
+    <string name="no_descriptions">لا يوجد وصف</string>
+    <string name="num_times">عدد مرات الزيارة : </string>
+    <string name="av_for_proider">متاحة فقط لمقدمين الخدمة</string>
+    <string name="ser_av_prov">التعليقات متاحة لمقدمين الخدمة فقط</string>
+    <string name="refuse">رفض</string>
+    <string name="end_order">إنهاء الطلب</string>
+    <string name="add_comment">أضف تعليق</string>
+    <string name="add_rate">أضف تقييم</string>
+    <string name="no_comments">لا توجد تعليقات</string>
+    <string name="any2">الجنسين</string>
+    <string name="new_order">طلب جديد</string>
+    <string name="order_accepted">تم قبول طلبك</string>
+    <string name="ord_pen">طلبك قيد الانتظار حتى يتم الموافقة علية من قبل مقدمين الخدمة</string>
+    <string name="client_order_cancel">تم الغاء الطلب من العميل</string>
+    <string name="provider_order_cancel">تم الغاء الطلب من مقدم الخدمة</string>
+    <string name="rate_provider">تم انهاء الطلب قم بالتقييم</string>
+    <string name="have_rating">تم تقييمك</string>
+    <string name="thanks_for_using_homecare_app">Thanks for using GeneCare App</string>
+    <string name="hour">ساعة</string>
+    <string name="ch_num_shift">أختر الشفت</string>
+    <string name="num_shifts">عدد ساعات الشفت</string>
+    <string name="provider_registration">تسجيل مقدم خدمة</string>
+    <string name="client_registration">تسجيل مستخدم</string>
+    <string name="exper">الخبرة</string>
+    <string name="year">سنة</string>
+
+
+</resources>

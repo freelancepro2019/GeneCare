@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#160298</color>
+    <color name="colorPrimaryDark">#160298</color>
+    <color name="colorAccent">#160298</color>
+
+    <color name="white">#ffffff</color>
+    <color name="black">#000</color>
+
+    <color name="gray0">#fafafa</color>
+    <color name="gray1">#f5f5f5</color>
+    <color name="gray2">#eee</color>
+    <color name="gray3">#eceff1</color>
+    <color name="gray4">#bababa</color>
+    <color name="gray5">#c3c3c3</color>
+    <color name="gray6">#a0a0a0</color>
+    <color name="gray7">#f8f8f8</color>
+    <color name="gray8">#f7f7fb</color>
+
+
+    <color name="transparent">#00000000</color>
+    <color name="red">#ff0c0c</color>
+
+
+    <color name="color1">#ff7f9e</color>
+    <color name="color2">#ffafb7</color>
+    <color name="color3">#3d2abb</color>
+    <color name="color4">#190886</color>
+    <color name="color5">#00c2d3</color>
+    <color name="color6">#009cbe</color>
+    <color name="color7">#0086a4</color>
+    <color name="color8">#8a5c8a</color>
+    <color name="color9">#9f7f91</color>
+
+    <color name="color11">#61b060</color>
+    <color name="color12">#ff0c0c</color>
+    <color name="nav_bg">#f7f8fa</color>
+
+    <color name="gradient1">#fe8c00</color>
+    <color name="gradient11">#f83600</color>
+
+    <color name="gradient2">#556270</color>
+    <color name="gradient22">#ff6b6b</color>
+
+    <color name="gradient3">#9d50bb</color>
+    <color name="gradient33">#6e48ee</color>
+
+    <color name="gradient4">#b3ffab</color>
+    <color name="gradient44">#12fff7</color>
+
+    <color name="gradient5">#5f2c82</color>
+    <color name="gradient55">#49a09d</color>
+
+    <color name="gradient6">#dd5e89</color>
+    <color name="gradient66">#f7bb97</color>
+
+
+    <color name="avatar_bg">#5500c2d3</color>
+    <color name="color_whats">#61b060</color>
+
+</resources>

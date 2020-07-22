@@ -50,10 +50,11 @@ public class Services_Adapter extends RecyclerView.Adapter<Services_Adapter.Serv
         holder.binding.setServiceModel(serviceModel);
         holder.binding.image.setColorFilter(ContextCompat.getColor(context, R.color.white));
         holder.binding.setLang(lang);
-        int pos = position%colors.length;
+        holder.binding.image.setColorFilter(ContextCompat.getColor(context,R.color.colorPrimary));
+       /* int pos = position%colors.length;
         holder.binding.image.setBackgroundResource(colors[pos]);
         holder.binding.tvName.setTextColor(ContextCompat.getColor(context,colors[pos]));
-        holder.binding.arrow.setColorFilter(ContextCompat.getColor(context,colors[pos]));
+        holder.binding.arrow.setColorFilter(ContextCompat.getColor(context,colors[pos]));*/
 
         holder.itemView.setOnClickListener(v -> {
             ServicesDataModel.ServiceModel model1 = serviceModelList.get(holder.getAdapterPosition());

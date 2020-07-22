@@ -12,7 +12,17 @@
             name="subModel"
             type="com.genecare.models.SubServicesModel.SubServiceModel" />
     </data>
-
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="@id/cardViewData"
+        app:layout_constraintEnd_toStartOf="@id/cardViewData"
+        app:cardCornerRadius="45dp"
+        android:layout_margin="5dp"
+        app:cardElevation="6dp"
+        >
     <LinearLayout
         android:layout_width="match_parent"
         android:orientation="vertical"
@@ -57,4 +67,5 @@
             android:layout_height="1px"
             android:background="@color/gray4" />
     </LinearLayout>
+    </androidx.cardview.widget.CardView>
 </layout>

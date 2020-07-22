@@ -77,23 +77,24 @@
                     android:layout_marginBottom="20dp"
                     android:orientation="vertical"
                     >
-
-                    <LinearLayout
+                    <androidx.cardview.widget.CardView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:layout_marginTop="50dp"
-                        android:layout_gravity="center_horizontal"
-                        android:orientation="horizontal"
-                        android:layout_marginStart="20dp"
-                        android:layout_marginEnd="20dp"
-                        android:weightSum="3"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintBottom_toTopOf="@id/btnSend"
+                        app:cardCornerRadius="45dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_marginTop="25dp"
+
+                        app:cardElevation="6dp"
+                        android:onClick="@{()->action.aboutApp()}"
+
                         >
                         <LinearLayout
-                            android:layout_width="0dp"
-                            android:layout_weight="1"
-                            android:layout_height="match_parent"
-                            android:orientation="vertical"
-                            android:onClick="@{()->action.aboutApp()}"
+                            android:layout_width="match_parent"
+                            android:layout_height="40dp"
+                            android:orientation="horizontal"
                             >
 
                             <ImageView
@@ -101,7 +102,7 @@
                                 android:layout_height="40dp"
                                 android:padding="5dp"
                                 android:src="@drawable/ic_info"
-                                android:tint="@color/white"
+                                android:tint="@color/colorPrimary"
                                 android:clickable="false"
                                 android:longClickable="false"
                                 android:layout_gravity="center_horizontal"
@@ -110,244 +111,246 @@
                             <TextView
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
-                                android:layout_gravity="center_horizontal"
-                                android:textColor="@color/white"
-                                android:textSize="13sp"
+                                android:layout_gravity="center"
+                                android:textColor="@color/colorPrimary"
+                                android:textSize="15sp"
                                 android:text="@string/about_app"
                                 android:textStyle="bold"
                                 android:clickable="false"
                                 android:longClickable="false"
+
                                 android:gravity="center"
                                 />
                         </LinearLayout>
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintBottom_toTopOf="@id/btnSend"
+                        app:cardCornerRadius="45dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_marginTop="10dp"                        app:cardElevation="6dp"
+                        android:onClick="@{()->action.changeLanguage()}"
+
+                        >
                         <LinearLayout
-                            android:layout_width="0dp"
-                            android:layout_weight="1"
-                            android:layout_height="wrap_content"
-                            android:orientation="vertical"
-                            android:layout_marginStart="10dp"
-                            android:layout_marginEnd="10dp"
-                            android:onClick="@{()->action.changeLanguage()}"
-
-
+                            android:layout_width="match_parent"
+                            android:layout_height="40dp"
+                            android:orientation="horizontal"
                             >
+
                             <ImageView
                                 android:layout_width="40dp"
                                 android:layout_height="40dp"
-                                android:tint="@color/white"
+                                android:padding="5dp"
                                 android:src="@drawable/ic_language"
-                                android:padding="5dp"
-                                android:layout_gravity="center_horizontal"
+                                android:tint="@color/colorPrimary"
                                 android:clickable="false"
                                 android:longClickable="false"
+                                android:layout_gravity="center_horizontal"
+
                                 />
                             <TextView
-                                android:layout_width="wrap_content"
+                                android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
-                                android:layout_gravity="center_horizontal"
-                                android:textColor="@color/white"
-                                android:textSize="13sp"
-                                android:textStyle="bold"
+                                android:layout_gravity="center"
+                                android:textColor="@color/colorPrimary"
+                                android:textSize="15sp"
                                 android:text="@string/change_language"
-                                android:clickable="false"
-                                android:longClickable="false"
-                                android:gravity="center"
-                                />
-                        </LinearLayout>
-                        <LinearLayout
-                            android:layout_width="0dp"
-                            android:layout_weight="1"                            android:layout_height="wrap_content"
-                            android:orientation="vertical"
-                            android:onClick="@{()->action.contactUs()}"
-
-                            >
-                            <ImageView
-                                android:layout_width="40dp"
-                                android:layout_height="40dp"
-                                android:tint="@color/white"
-                                android:src="@drawable/ic_chat"
-                                android:padding="5dp"
-                                android:layout_gravity="center_horizontal"
-                                android:clickable="false"
-                                android:longClickable="false"
-                                />
-                            <TextView
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:layout_gravity="center_horizontal"
-                                android:textColor="@color/white"
-                                android:textSize="13sp"
                                 android:textStyle="bold"
-                                android:text="@string/contact_us"
                                 android:clickable="false"
                                 android:longClickable="false"
+
+                                android:gravity="center"
                                 />
                         </LinearLayout>
+                    </androidx.cardview.widget.CardView>
 
-                    </LinearLayout>
 
-                    <LinearLayout
+                    <androidx.cardview.widget.CardView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:layout_marginTop="30dp"
-                        android:layout_gravity="center_horizontal"
-                        android:layout_marginStart="20dp"
-                        android:layout_marginEnd="20dp"
-                        android:orientation="horizontal"
-                        android:weightSum="3"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintBottom_toTopOf="@id/btnSend"
+                        app:cardCornerRadius="45dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_marginTop="10dp"                         app:cardElevation="6dp"
+                        android:onClick="@{()->action.rateApp()}"
+
                         >
                         <LinearLayout
-                            android:layout_width="0dp"
-                            android:layout_weight="1"                            android:layout_height="wrap_content"
-                            android:orientation="vertical"
-                            android:onClick="@{()->action.rateApp()}"
-
+                            android:layout_width="match_parent"
+                            android:layout_height="40dp"
+                            android:orientation="horizontal"
                             >
+
                             <ImageView
                                 android:layout_width="40dp"
                                 android:layout_height="40dp"
-                                android:tint="@color/white"
+                                android:padding="5dp"
                                 android:src="@drawable/ic_star"
-                                android:padding="5dp"
-                                android:layout_gravity="center_horizontal"
+                                android:tint="@color/colorPrimary"
                                 android:clickable="false"
                                 android:longClickable="false"
+                                android:layout_gravity="center_horizontal"
+
                                 />
                             <TextView
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
-                                android:layout_gravity="center_horizontal"
-                                android:textColor="@color/white"
-                                android:textSize="13sp"
+                                android:layout_gravity="center"
+                                android:textColor="@color/colorPrimary"
+                                android:textSize="15sp"
                                 android:text="@string/rate_app"
+                                android:textStyle="bold"
                                 android:clickable="false"
                                 android:longClickable="false"
+
                                 android:gravity="center"
                                 />
                         </LinearLayout>
-                        <LinearLayout
-                            android:layout_width="0dp"
-                            android:layout_weight="1"                            android:layout_height="wrap_content"
-                            android:orientation="vertical"
-                            android:layout_marginStart="10dp"
-                            android:layout_marginEnd="10dp"
-                            android:onClick="@{()->action.terms()}"
+                    </androidx.cardview.widget.CardView>
 
 
-                            >
-                            <ImageView
-                                android:layout_width="40dp"
-                                android:layout_height="40dp"
-                                android:tint="@color/white"
-                                android:src="@drawable/ic_checklist"
-                                android:padding="5dp"
-                                android:layout_gravity="center_horizontal"
-                                android:clickable="false"
-                                android:longClickable="false"
-                                />
-                            <TextView
-                                android:layout_width="match_parent"
-                                android:layout_height="wrap_content"
-                                android:layout_gravity="center_horizontal"
-                                android:textColor="@color/white"
-                                android:textSize="13sp"
-                                android:text="@string/terms_and_conditions"
-                                android:clickable="false"
-                                android:longClickable="false"
-                                android:gravity="center"
-
-                                />
-                        </LinearLayout>
-
-                        <LinearLayout
-                            android:layout_width="0dp"
-                            android:layout_weight="1"                            android:layout_height="wrap_content"
-                            android:orientation="vertical"
-                            android:onClick="@{()->action.share()}"
-
-
-                            >
-                            <ImageView
-                                android:layout_width="40dp"
-                                android:layout_height="40dp"
-                                android:tint="@color/white"
-                                android:src="@drawable/ic_forward_arrow"
-                                android:padding="5dp"
-                                android:layout_gravity="center_horizontal"
-                                android:clickable="false"
-                                android:longClickable="false"
-                                />
-                            <TextView
-                                android:layout_width="match_parent"
-                                android:layout_height="wrap_content"
-                                android:layout_gravity="center_horizontal"
-                                android:textColor="@color/white"
-                                android:textSize="13sp"
-                                android:text="@string/share_app"
-                                android:clickable="false"
-                                android:longClickable="false"
-                                android:gravity="center"
-
-                                />
-                        </LinearLayout>
-
-                    </LinearLayout>
-
-                    <LinearLayout
+                    <androidx.cardview.widget.CardView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:layout_marginTop="30dp"
-                        android:layout_gravity="center_horizontal"
-                        android:layout_marginStart="20dp"
-                        android:layout_marginEnd="20dp"
-                        android:orientation="horizontal"
-                        android:weightSum="3"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintBottom_toTopOf="@id/btnSend"
+                        app:cardCornerRadius="45dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_marginTop="10dp"                         app:cardElevation="6dp"
+                        android:onClick="@{()->action.terms()}"
+
                         >
                         <LinearLayout
-                            android:layout_width="0dp"
-                            android:layout_weight="1"
-                            android:layout_height="wrap_content"
-                            android:orientation="vertical"
-                            android:onClick="@{()->action.logout()}"
-
+                            android:layout_width="match_parent"
+                            android:layout_height="40dp"
+                            android:orientation="horizontal"
                             >
+
                             <ImageView
                                 android:layout_width="40dp"
                                 android:layout_height="40dp"
-                                android:tint="@color/white"
-                                android:src="@drawable/ic_logout"
                                 android:padding="5dp"
-                                android:layout_gravity="center_horizontal"
+                                android:src="@drawable/ic_checklist"
+                                android:tint="@color/colorPrimary"
                                 android:clickable="false"
                                 android:longClickable="false"
+                                android:layout_gravity="center_horizontal"
+
                                 />
                             <TextView
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
-                                android:layout_gravity="center_horizontal"
-                                android:textColor="@color/white"
-                                android:textSize="13sp"
-                                android:text="@string/logout"
-
+                                android:layout_gravity="center"
+                                android:textColor="@color/colorPrimary"
+                                android:textSize="15sp"
+                                android:text="@string/terms_and_conditions"
+                                android:textStyle="bold"
                                 android:clickable="false"
                                 android:longClickable="false"
+
                                 android:gravity="center"
                                 />
                         </LinearLayout>
+                    </androidx.cardview.widget.CardView>
+
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintBottom_toTopOf="@id/btnSend"
+                        app:cardCornerRadius="45dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_marginTop="10dp"                         app:cardElevation="6dp"
+                        android:onClick="@{()->action.share()}"
+
+                        >
                         <LinearLayout
-                            android:layout_width="0dp"
-                            android:layout_weight="1"                            android:layout_height="wrap_content"
-                            android:orientation="vertical"
-                            android:layout_marginStart="10dp"
-                            android:layout_marginEnd="10dp"
-
-
+                            android:layout_width="match_parent"
+                            android:layout_height="40dp"
+                            android:orientation="horizontal"
                             >
 
+                            <ImageView
+                                android:layout_width="40dp"
+                                android:layout_height="40dp"
+                                android:padding="5dp"
+                                android:src="@drawable/ic_forward_arrow"
+                                android:tint="@color/colorPrimary"
+                                android:clickable="false"
+                                android:longClickable="false"
+                                android:layout_gravity="center_horizontal"
+
+                                />
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:textColor="@color/colorPrimary"
+                                android:textSize="15sp"
+                                android:text="@string/share_app"
+                                android:textStyle="bold"
+                                android:clickable="false"
+                                android:longClickable="false"
+
+                                android:gravity="center"
+                                />
                         </LinearLayout>
+                    </androidx.cardview.widget.CardView>
 
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintBottom_toTopOf="@id/btnSend"
+                        app:cardCornerRadius="45dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_marginTop="10dp"                         app:cardElevation="6dp"
+                        android:onClick="@{()->action.logout()}"
 
-                    </LinearLayout>
+                        >
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="40dp"
+                            android:orientation="horizontal"
+                            >
+
+                            <ImageView
+                                android:layout_width="40dp"
+                                android:layout_height="40dp"
+                                android:padding="5dp"
+                                android:src="@drawable/ic_logout"
+                                android:tint="@color/colorPrimary"
+                                android:clickable="false"
+                                android:longClickable="false"
+                                android:layout_gravity="center_horizontal"
+
+                                />
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:textColor="@color/colorPrimary"
+                                android:textSize="15sp"
+                                android:text="@string/logout"
+                                android:textStyle="bold"
+                                android:clickable="false"
+                                android:longClickable="false"
+
+                                android:gravity="center"
+                                />
+                        </LinearLayout>
+                    </androidx.cardview.widget.CardView>
 
 
                 </LinearLayout>
